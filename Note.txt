@@ -1,0 +1,45 @@
+<label for="Firstname">Firstname</label><br>
+    <input type="Fname" id="Firstname"><br>
+    <label for="Middlename">Middlename</label><br>
+    <input type="Mname" id="Middlename"><br>
+    <label for="Lastname">Lastname</label><br>
+    <input type="Lname" id="Lastname"><br>
+    <label for="Emai">Email</label><br>
+    <input type="mail" id="Email"><br>
+    <label for="Password">Password</label><br>
+    <input type="pword" id="Password"><br>
+    <button onclick="foo()">Submit</button>
+
+
+
+    //function foo(){
+  //  var ele =document.getElementById(Firstname).value;
+    //var ele1 =document.getElementById(Middlename).value;
+    //var ele2 =document.getElementById(Lastname).value;
+    //var ele3 =document.getElementById(Email).value;
+    //var ele4 =document.getElementById(Password).value;
+//console.log(ele,ele1,ele2,ele3,ele4);        
+//}
+
+
+
+//var ele = document.querySelectorAll(".main1");
+//console.log(ele);
+
+
+//let button =document.createElement("button");
+button.innerHTML="Click Me";
+button.addEventListener("click",display);
+document.body.append(button);
+
+function display(){
+   // console.log("Hello World");
+}
+
+function foo(){
+    var ele = document.createElement("span");
+ele.innerHTML="Welcome to Guvi";
+ele.style.color="blue";
+ele.style.fontSize="20px";
+document.body.append(ele);
+}
